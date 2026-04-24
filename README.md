@@ -20,3 +20,4 @@ Environment variables for `generate.mjs`:
 - `THEME` (`oxblood` or `black`, default `black`)
 - `WM` (campaign code, default T2CSW)
 - `SITE_URL` (your live URL for sitemap/canonicals)
+https://livecamrooms.github.io/LiveCam/
