@@ -10,7 +10,7 @@ const THEME = process.env.THEME || 'oxblood';
 
 const SITE_NAME = process.env.SITE_NAME || 'CamIndex';
 const SITE_DESC = 'Live cam room index, sorted by tag, country and language. Compare viewers, HD streams, languages, and locations across thousands of live broadcasters in one dense, scannable table.';
-const SITE_URL = process.env.SITE_URL || '';
+const SITE_URL = process.env.SITE_URL || 'https://livecamrooms.github.io/LiveCam';
 
 // ---- file naming helpers ----
 const slugify = (t) => String(t || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
